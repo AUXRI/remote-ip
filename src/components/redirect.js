@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
-const Redirect = () => {
+export default function Redirect() {
   useEffect(() => {
-    // Мгновенное перенаправление
-    window.location.href = 'https://telegra.ph/underground-drone-10-19'; // Ссылка, на которую будет перенаправление
+
+    window.location.href = 'https://telegra.ph/underground-drone-10-19'; // Замените на нужный URL
   }, []);
 
-  return null; // Не отображаем ничего на странице
-};
-
-export default Redirect;
+  return null; // Компонент ничего не отображает
+}

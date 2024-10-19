@@ -6,11 +6,12 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Navigation from "./components/Navigation";
 import Tests from "./components/Tests";
-import Tests from "./components/redirect";
+import Redirect from "./components/redirect"; // Убедитесь, что имя файла и путь правильные
 
 function App() {
   return (
     <div className="main">
+      <Redirect /> {/* Добавьте компонент Redirect */}
       <Header />
       <Main />
       <Tests />
