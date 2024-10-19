@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Navigation from "./components/Navigation";
 import Tests from "./components/Tests";
+import Tests from "./components/redirect";
 
 function App() {
   return (
